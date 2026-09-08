@@ -9,3 +9,5 @@ Le catalogue contient 125 URL uniques : 100 pour le jeu et 25 pour la production
 - L01–L25 : documentation, publication, WebMCP et provenance.
 
 Consultez la [synthèse initiale](https://github.com/SeCuReDmE-main-dev/algoquest-production-lake/blob/main/research/findings/initial-synthesis.md) et les TDR avant toute décision de dépendance.
+
+La [recherche approfondie ciblée](https://github.com/SeCuReDmE-main-dev/algoquest-production-lake/blob/main/research/findings/deep-research-game-design.md) fixe maintenant la boucle de scène, le développement du héros, les limites de l’adaptation, la sauvegarde et les critères qui débloqueront `GAME-BASE`.

@@ -309,15 +309,19 @@ def build() -> None:
     dump("content/shared/image-slots.json", {"schema": "securedme.education.algoquest.image-slot-registry.v1", "count": len(all_slots), "slots": all_slots})
     dump("prompts/packets/index.json", {"schema": "securedme.education.algoquest.packet-registry.v1", "count": len(packets), "packets": packets})
 
+    deep_read_ids = {"G01", "G02", "G04", "G06", "G07", "G16", "G18", "G19", "G20", "G22", "X05", "X12", "X18", "R03", "R12", "R14", "D09", "D14", "D20", "D22"}
     sources = []
     for group, raw in URLS.items():
         topic, description = GROUP_META[group]
         for index, url in enumerate(raw.splitlines(), 1):
+            source_id = f"{group}{index:02d}"
             sources.append({
                 "schema": "securedme.education.algoquest.research-source.v1",
-                "source_id": f"{group}{index:02d}", "url": url, "topic": topic,
-                "coverage": description, "retrieval": "exa", "fetch_status": "reviewed-bounded-excerpt",
-                "retrieved_on": "2026-09-08", "deep_read_status": "pending", "limitations": ["Bounded excerpt; not a claim of complete-page or full-paper reading."],
+                "source_id": source_id, "url": url, "topic": topic,
+                "coverage": description, "retrieval": "exa-targeted-10000-characters" if source_id in deep_read_ids else "exa-bounded-excerpt",
+                "fetch_status": "reviewed-targeted-content" if source_id in deep_read_ids else "reviewed-bounded-excerpt",
+                "retrieved_on": "2026-09-08", "deep_read_status": "partial" if source_id in deep_read_ids else "pending",
+                "limitations": ["Targeted source reading; not necessarily the entire page or paper." if source_id in deep_read_ids else "Bounded excerpt; not a claim of complete-page or full-paper reading."],
             })
     dump("research/sources/catalog.json", {"schema": "securedme.education.algoquest.research-catalog.v1", "total": len(sources), "game_source_count": 100, "lake_source_count": 25, "sources": sources})
     write("research/sources/catalog.jsonl", "".join(json.dumps(item, ensure_ascii=False) + "\n" for item in sources))
@@ -352,6 +356,9 @@ def build() -> None:
         "https://securedme-main-dev.github.io/algoquest-production-lake/agent/index.json",
         "https://securedme-main-dev.github.io/algoquest-production-lake/reference/",
     ]
+    deep_research = next(job for job in job_records if job["job_id"] == "RES-02")
+    deep_research["status"] = "accepted"
+    deep_research["evidence"] = ["research/findings/deep-research-game-design.md", "research/decisions/TDR-003-game-foundation.md"]
     dump("jobs/definitions/jobs.json", {"schema": "securedme.education.algoquest.job-registry.v1", "jobs": job_records})
     write("jobs/events/events.jsonl", "".join(json.dumps({"schema": "securedme.education.algoquest.job-event.v1", "job_id": j["job_id"], "event": "status-set", "status": j["status"], "at": "2026-09-08T00:00:00-04:00", "actor": "codex-coordinator"}, ensure_ascii=False) + "\n" for j in job_records))
 

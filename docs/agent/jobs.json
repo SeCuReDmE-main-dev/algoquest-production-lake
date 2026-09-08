@@ -59,9 +59,13 @@
       "depends_on": [
         "RES-01"
       ],
-      "status": "running",
+      "status": "accepted",
       "expected_output": "Deep synthesis and technology decisions",
-      "revision": 1
+      "revision": 1,
+      "evidence": [
+        "research/findings/deep-research-game-design.md",
+        "research/decisions/TDR-003-game-foundation.md"
+      ]
     },
     {
       "schema": "securedme.education.algoquest.production-job.v1",
