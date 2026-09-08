@@ -321,10 +321,113 @@
     },
     {
       "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "CORE-01",
+      "depends_on": [
+        "RES-02"
+      ],
+      "status": "accepted",
+      "expected_output": "Canonical deterministic game reducer, 40-activity bank and fixed 20-activity run",
+      "revision": 1,
+      "evidence": [
+        "algoquest/services/gameEngine.js",
+        "algoquest/scripts/game-engine-contract-test.mjs",
+        "algoquest/scripts/game-host-contract-test.mjs"
+      ]
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "SHEET-01",
+      "depends_on": [
+        "CORE-01"
+      ],
+      "status": "accepted",
+      "expected_output": "Versioned Hero Sheet component shared by the web board, Builder side panel and mobile shell",
+      "revision": 1,
+      "evidence": [
+        "algorithm-builder/packages/hero-sheet",
+        "algoquest/vendor/hero-sheet-manifest.json"
+      ]
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "BRIDGE-01",
+      "depends_on": [
+        "CORE-01",
+        "SHEET-01"
+      ],
+      "status": "accepted",
+      "expected_output": "Origin-validated, tab-isolated game commands and authenticated Builder evidence receipts",
+      "revision": 1,
+      "evidence": [
+        "algorithm-builder/scripts/extension-routing-test.js",
+        "algorithm-builder/scripts/game-command-outbox-test.js",
+        "algorithm-builder/scripts/receipt-authentication-test.js",
+        "algoquest/scripts/builder-extension-browser-test.mjs"
+      ]
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "PLAY-01",
+      "depends_on": [
+        "CORE-01",
+        "SHEET-01"
+      ],
+      "status": "accepted",
+      "expected_output": "Playable web board joined to the Hero Sheet with Qbit, branches, simulation, progression and upgrades",
+      "revision": 1,
+      "evidence": [
+        "algoquest/scripts/hero-books-browser-test.mjs",
+        "algoquest/App.tsx"
+      ]
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "MOBILE-01",
+      "depends_on": [
+        "SHEET-01"
+      ],
+      "status": "submitted",
+      "expected_output": "Capacitor Android and iOS shells with durable generation-based game storage",
+      "revision": 1,
+      "evidence": [
+        "algoquest/android",
+        "algoquest/ios",
+        "algoquest/services/nativeGameStorage.js",
+        "algoquest/scripts/native-game-storage-test.mjs",
+        "algoquest/scripts/game-host-parity-test.mjs",
+        "algoquest/scripts/verify-android-build.ps1",
+        "algoquest/docs/android-device-proof.md",
+        "android-debug-sha256:43d64b6beb0ca8573da85f6c24b9d8c2b6d27ced4082ffcdbbbe0454767c7cdb",
+        "research/evidence/GAME-CORE-01-android-build.json"
+      ],
+      "limitation": "Android APK build and digest verification pass; the bounded restart flow still requires an Android device or emulator, and iOS compilation requires macOS/Xcode."
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "GAME-CORE-01",
+      "depends_on": [
+        "CORE-01",
+        "SHEET-01",
+        "BRIDGE-01",
+        "PLAY-01",
+        "MOBILE-01"
+      ],
+      "status": "submitted",
+      "expected_output": "First integrated game-engine pass across web board, shared Hero Sheet, Builder side panel and mobile shells",
+      "revision": 1,
+      "evidence": [
+        "research/findings/GAME-CORE-01-first-pass.md",
+        "algoquest/scripts/builder-extension-browser-test.mjs",
+        "research/findings/GAME-CORE-01-acceptance-matrix.md"
+      ]
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
       "job_id": "GAME-BASE",
       "depends_on": [
         "RES-02",
-        "ART-BASE-01"
+        "ART-BASE-01",
+        "GAME-CORE-01"
       ],
       "status": "blocked",
       "expected_output": "Playable book shell and Algorithm Builder hero panel",

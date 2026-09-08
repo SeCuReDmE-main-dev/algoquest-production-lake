@@ -1,0 +1,13 @@
+# Première passe du jeu
+
+`GAME-CORE-01` relie un seul état de partie à quatre surfaces : la planche web AlgoQuest, la fiche du héros intégrée à cette planche, le side panel Algorithm Builder et les enveloppes mobiles Capacitor.
+
+Le moteur AlgoQuest est l’autorité sur la mission, l’activité active, la progression, les ressources, les talents, l’inventaire et le journal. Une commande contient l’identifiant de partie, la révision attendue et un identifiant d’idempotence. Le reducer produit un nouvel état et des événements. La fiche du héros reçoit une projection de cet état et ne possède pas une seconde progression indépendante.
+
+Algorithm Builder reçoit la mission liée à la partie et renvoie un artefact borné. Un reçu Colab ne devient une preuve admissible qu’après validation côté broker de sa signature, de son digest et de sa liaison au propriétaire authentifié, à la partie, à la mission, au prompt, à l’artefact et à la tentative. Le service worker isole les canaux par onglet, conserve le choix explicite de l’onglet actif et rejoue une commande avec le même identifiant lorsque sa réponse a été perdue.
+
+Sur le web, IndexedDB conserve ensemble l’état et le journal d’événements. Sur mobile, chaque sauvegarde écrit une génération immuable, puis un marqueur de commit contenant les empreintes. La reprise choisit la plus récente génération complète et valide; Preferences ne contient que l’identifiant de la partie active. Un schéma incompatible est conservé et signalé pour migration au lieu de provoquer une remise à zéro. Une suite de parité confirme que les mêmes commandes produisent le même état et la même fiche dans les hôtes web et natif.
+
+L’état `submitted` de `MOBILE-01` est volontaire. La synchronisation des projets Android et iOS passe, l’APK debug Android compile avec une empreinte consignée, et cet APK a été installé puis ouvert sur un Galaxy A07. Le chargement et les liens de base fonctionnent selon l’essai du propriétaire. Il reste à exécuter le protocole complet d’interruption et de reprise sur l’appareil. Windows ne peut pas compiler le projet iOS Xcode.
+
+La validation locale couvre les contrats des deux dépôts, la compilation web, le typage, l’accessibilité statique, les parcours navigateur à plusieurs dimensions, les corruptions et 100 cycles de sauvegarde/reprise, la synchronisation native et les audits de dépendances. Un parcours Chromium charge aussi la véritable extension MV3 à 390 px et vérifie commande, fermeture, fiche hors ligne, reconnexion, brouillon et navigation au clavier. Le gate conserve explicitement les services distants et la revue avec utilisateurs comme bloqueurs de l’alpha.

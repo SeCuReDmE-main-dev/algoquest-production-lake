@@ -13,6 +13,7 @@ nav:
   - Produire EX-01: ex-01.md
   - Dépôt des images: image-drop.md
   - Travaux: jobs.md
+  - Première passe du jeu: game-core-first-pass.md
   - Recherche: research.md
   - Référence technique: reference.md
 strict: true

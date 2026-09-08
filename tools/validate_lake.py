@@ -62,7 +62,7 @@ def main() -> int:
     private_path = re.compile(r"(?i)(C:\\Users\\|/Users/|Z:\\)")
     for path in ROOT.rglob("*"):
         relative_parts = path.relative_to(ROOT).parts
-        if any(part in {".git", "site", "build", ".venv", "__pycache__"} for part in relative_parts) or not path.is_file() or path.suffix not in tracked_text_extensions:
+        if any(part in {".git", "site", "build", ".venv", ".venv-docs", "__pycache__"} for part in relative_parts) or not path.is_file() or path.suffix not in tracked_text_extensions:
             continue
         if path.resolve() == Path(__file__).resolve():
             continue
