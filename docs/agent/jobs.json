@@ -25,9 +25,15 @@
       "depends_on": [
         "LAKE-02"
       ],
-      "status": "running",
+      "status": "accepted",
       "expected_output": "Agent exports, docs, WebMCP and publishing",
-      "revision": 1
+      "revision": 1,
+      "evidence": [
+        "https://github.com/SeCuReDmE-main-dev/algoquest-production-lake/actions/runs/34250834687",
+        "https://securedme-main-dev.github.io/algoquest-production-lake/",
+        "https://securedme-main-dev.github.io/algoquest-production-lake/agent/index.json",
+        "https://securedme-main-dev.github.io/algoquest-production-lake/reference/"
+      ]
     },
     {
       "schema": "securedme.education.algoquest.production-job.v1",

@@ -344,6 +344,14 @@ def build() -> None:
         ("GAME-FINISH", ["GAME-CONTENT", *[f"ART-{slug}" for _, slug, _ in BOOKS]], "blocked", "Visual finish, accessibility and complete playtests"),
     ])
     job_records = [{"schema": "securedme.education.algoquest.production-job.v1", "job_id": jid, "depends_on": deps, "status": state, "expected_output": output, "revision": 1} for jid, deps, state, output in jobs]
+    lake_publish = next(job for job in job_records if job["job_id"] == "LAKE-03")
+    lake_publish["status"] = "accepted"
+    lake_publish["evidence"] = [
+        "https://github.com/SeCuReDmE-main-dev/algoquest-production-lake/actions/runs/34250834687",
+        "https://securedme-main-dev.github.io/algoquest-production-lake/",
+        "https://securedme-main-dev.github.io/algoquest-production-lake/agent/index.json",
+        "https://securedme-main-dev.github.io/algoquest-production-lake/reference/",
+    ]
     dump("jobs/definitions/jobs.json", {"schema": "securedme.education.algoquest.job-registry.v1", "jobs": job_records})
     write("jobs/events/events.jsonl", "".join(json.dumps({"schema": "securedme.education.algoquest.job-event.v1", "job_id": j["job_id"], "event": "status-set", "status": j["status"], "at": "2026-09-08T00:00:00-04:00", "actor": "codex-coordinator"}, ensure_ascii=False) + "\n" for j in job_records))
 

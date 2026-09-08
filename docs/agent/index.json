@@ -18,7 +18,7 @@
     "image-slots.json": "sha256:2dfa1b68d8ca47f9cbbaa02331a90587d699468d1a520db4378a2829fd4c9339",
     "packets.json": "sha256:e3e6911c104c69883d9ad1bfc83937048ec216d9f50e42271dcfae741c593026",
     "packet-details.json": "sha256:6b53e2fadd654dab9a8ffc178af47b22b31225bba84608dffce3cfd6b807c5a2",
-    "jobs.json": "sha256:a4cd2ec3886e57b31c8ed174df7b48647ec3071a31a42809f3c634cf642bf214",
+    "jobs.json": "sha256:78637f74312354a533cfa91197004bf9e8db17e7da2f74b50f6a528ea6c20b99",
     "books.json": "sha256:7c600cfd3da0055a5a933b0c9ba0f5db563f45702eba6a8eb8e39b0056744dea"
   },
   "write_policy": "read-only-public; persistent changes require authenticated Git review"
