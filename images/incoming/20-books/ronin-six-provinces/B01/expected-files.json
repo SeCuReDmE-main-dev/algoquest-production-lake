@@ -1,0 +1,186 @@
+{
+  "schema": "securedme.education.algoquest.expected-files.v1",
+  "packet_id": "RON-B01",
+  "files": [
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "RON-001",
+      "packet_id": "RON-B01",
+      "filename": "AQ-RON-001__v001.png",
+      "revision": 1,
+      "usage": "cover",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 1
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "RON-002",
+      "packet_id": "RON-B01",
+      "filename": "AQ-RON-002__v001.png",
+      "revision": 1,
+      "usage": "map",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 2
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "RON-003",
+      "packet_id": "RON-B01",
+      "filename": "AQ-RON-003__v001.png",
+      "revision": 1,
+      "usage": "act-opener-1",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 3
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "RON-004",
+      "packet_id": "RON-B01",
+      "filename": "AQ-RON-004__v001.png",
+      "revision": 1,
+      "usage": "act-opener-2",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 4
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "RON-005",
+      "packet_id": "RON-B01",
+      "filename": "AQ-RON-005__v001.png",
+      "revision": 1,
+      "usage": "act-opener-3",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 5
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "RON-006",
+      "packet_id": "RON-B01",
+      "filename": "AQ-RON-006__v001.png",
+      "revision": 1,
+      "usage": "act-opener-4",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 6
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "RON-007",
+      "packet_id": "RON-B01",
+      "filename": "AQ-RON-007__v001.png",
+      "revision": 1,
+      "usage": "act-opener-5",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 7
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "RON-008",
+      "packet_id": "RON-B01",
+      "filename": "AQ-RON-008__v001.png",
+      "revision": 1,
+      "usage": "recurring-place-1",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 8
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "RON-009",
+      "packet_id": "RON-B01",
+      "filename": "AQ-RON-009__v001.png",
+      "revision": 1,
+      "usage": "recurring-place-2",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 9
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "RON-010",
+      "packet_id": "RON-B01",
+      "filename": "AQ-RON-010__v001.png",
+      "revision": 1,
+      "usage": "recurring-place-3",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 10
+    }
+  ]
+}

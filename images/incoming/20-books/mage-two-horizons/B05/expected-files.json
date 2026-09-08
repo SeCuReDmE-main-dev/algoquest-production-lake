@@ -1,0 +1,186 @@
+{
+  "schema": "securedme.education.algoquest.expected-files.v1",
+  "packet_id": "MAG-B05",
+  "files": [
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "MAG-041",
+      "packet_id": "MAG-B05",
+      "filename": "AQ-MAG-041__v001.png",
+      "revision": 1,
+      "usage": "tool-equipment-1",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 41
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "MAG-042",
+      "packet_id": "MAG-B05",
+      "filename": "AQ-MAG-042__v001.png",
+      "revision": 1,
+      "usage": "tool-equipment-2",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 42
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "MAG-043",
+      "packet_id": "MAG-B05",
+      "filename": "AQ-MAG-043__v001.png",
+      "revision": 1,
+      "usage": "tool-equipment-3",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 43
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "MAG-044",
+      "packet_id": "MAG-B05",
+      "filename": "AQ-MAG-044__v001.png",
+      "revision": 1,
+      "usage": "tool-equipment-4",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 44
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "MAG-045",
+      "packet_id": "MAG-B05",
+      "filename": "AQ-MAG-045__v001.png",
+      "revision": 1,
+      "usage": "talent-1",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 45
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "MAG-046",
+      "packet_id": "MAG-B05",
+      "filename": "AQ-MAG-046__v001.png",
+      "revision": 1,
+      "usage": "talent-2",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 46
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "MAG-047",
+      "packet_id": "MAG-B05",
+      "filename": "AQ-MAG-047__v001.png",
+      "revision": 1,
+      "usage": "talent-3",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 47
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "MAG-048",
+      "packet_id": "MAG-B05",
+      "filename": "AQ-MAG-048__v001.png",
+      "revision": 1,
+      "usage": "quest-object-1",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 48
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "MAG-049",
+      "packet_id": "MAG-B05",
+      "filename": "AQ-MAG-049__v001.png",
+      "revision": 1,
+      "usage": "quest-object-2",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 49
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "MAG-050",
+      "packet_id": "MAG-B05",
+      "filename": "AQ-MAG-050__v001.png",
+      "revision": 1,
+      "usage": "quest-object-3",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 50
+    }
+  ]
+}

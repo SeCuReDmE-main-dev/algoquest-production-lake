@@ -1,0 +1,21 @@
+schema: securedme.education.algoquest.production-lake.v1
+name: AlgoQuest Production Lake
+status: pre-alpha-production
+canonical_repository: https://github.com/SeCuReDmE-main-dev/algoquest-production-lake
+documentation: https://securedme-main-dev.github.io/algoquest-production-lake/
+counts:
+  stories: 6
+  audiences_per_story: 6
+  locales: 3
+  final_image_slots: 380
+  exploration_image_slots: 10
+  packets: 39
+  game_research_sources: 100
+  lake_research_sources: 25
+authority:
+  game_state: algoquest
+  technical_artifacts: algorithm-builder-or-colab
+  final_human_review: required
+classroom_ai_routes:
+  - Codex/OpenAI
+  - Antigravity/Gemini

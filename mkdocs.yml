@@ -1,0 +1,22 @@
+site_name: AlgoQuest Production Lake
+site_url: https://securedme-main-dev.github.io/algoquest-production-lake/
+repo_url: https://github.com/SeCuReDmE-main-dev/algoquest-production-lake
+theme:
+  name: material
+  language: fr
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: amber
+nav:
+  - Accueil: index.md
+  - Produire EX-01: ex-01.md
+  - Dépôt des images: image-drop.md
+  - Travaux: jobs.md
+  - Recherche: research.md
+  - Référence technique: reference.md
+strict: true
+exclude_docs: |
+  reference/**
+extra_javascript:
+  - agent/algoquest-tools.js

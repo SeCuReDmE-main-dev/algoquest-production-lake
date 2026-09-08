@@ -1,0 +1,186 @@
+{
+  "schema": "securedme.education.algoquest.expected-files.v1",
+  "packet_id": "MAG-B04",
+  "files": [
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "MAG-031",
+      "packet_id": "MAG-B04",
+      "filename": "AQ-MAG-031__v001.png",
+      "revision": 1,
+      "usage": "cast-portrait-expression-1",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 31
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "MAG-032",
+      "packet_id": "MAG-B04",
+      "filename": "AQ-MAG-032__v001.png",
+      "revision": 1,
+      "usage": "cast-portrait-expression-2",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 32
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "MAG-033",
+      "packet_id": "MAG-B04",
+      "filename": "AQ-MAG-033__v001.png",
+      "revision": 1,
+      "usage": "cast-portrait-expression-3",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 33
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "MAG-034",
+      "packet_id": "MAG-B04",
+      "filename": "AQ-MAG-034__v001.png",
+      "revision": 1,
+      "usage": "cast-portrait-expression-4",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 34
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "MAG-035",
+      "packet_id": "MAG-B04",
+      "filename": "AQ-MAG-035__v001.png",
+      "revision": 1,
+      "usage": "cast-portrait-expression-5",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 35
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "MAG-036",
+      "packet_id": "MAG-B04",
+      "filename": "AQ-MAG-036__v001.png",
+      "revision": 1,
+      "usage": "cast-portrait-expression-6",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 36
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "MAG-037",
+      "packet_id": "MAG-B04",
+      "filename": "AQ-MAG-037__v001.png",
+      "revision": 1,
+      "usage": "cast-portrait-expression-7",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 37
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "MAG-038",
+      "packet_id": "MAG-B04",
+      "filename": "AQ-MAG-038__v001.png",
+      "revision": 1,
+      "usage": "cast-portrait-expression-8",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 38
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "MAG-039",
+      "packet_id": "MAG-B04",
+      "filename": "AQ-MAG-039__v001.png",
+      "revision": 1,
+      "usage": "cast-portrait-expression-9",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 39
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "MAG-040",
+      "packet_id": "MAG-B04",
+      "filename": "AQ-MAG-040__v001.png",
+      "revision": 1,
+      "usage": "cast-portrait-expression-10",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 40
+    }
+  ]
+}

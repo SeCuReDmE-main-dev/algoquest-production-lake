@@ -1,0 +1,67 @@
+{
+  "schema": "securedme.education.algoquest.prompt-packet.v1",
+  "packet_id": "EX-01",
+  "revision": 1,
+  "status": "ready",
+  "expected_count": 10,
+  "dependencies": [],
+  "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+  "references": [
+    {
+      "reference_id": "REF-QBIT_STENCIL_GUIDE",
+      "path": "references/approved/qbit/qbit-stencil-guide.png",
+      "sha256": "2696f2d0eaadcb0aedaaaec3fded3cfd495fd202226a2111042a20f190e8f855",
+      "bytes": 127546,
+      "status": "approved-reference"
+    },
+    {
+      "reference_id": "REF-ALGOQUEST_TINY_MARK",
+      "path": "references/approved/brand/algoquest-tiny-mark.png",
+      "sha256": "cce91c32706fc46ead23a84cdd344d94204da8d8450a3e24fcffb613903d934d",
+      "bytes": 998862,
+      "status": "approved-reference"
+    },
+    {
+      "reference_id": "REF-ALGOQUEST_PUBLIC_BANNER",
+      "path": "references/approved/brand/algoquest-public-banner.png",
+      "sha256": "b0e7ba4b51c25a72413ed094453319686ed2c660bddd4987cb2a8a7e54866270",
+      "bytes": 1777260,
+      "status": "approved-reference"
+    },
+    {
+      "reference_id": "REF-ALGOQUEST_LOGO_LOCKUP",
+      "path": "references/approved/brand/algoquest-logo-lockup.png",
+      "sha256": "091c10754a69f1e85155386a4d2604d39646df4e16a34842f438a1af9128a731",
+      "bytes": 1427183,
+      "status": "approved-reference"
+    },
+    {
+      "reference_id": "REF-ALGOQUEST_COMPANION_BADGE",
+      "path": "references/approved/brand/algoquest-companion-badge.png",
+      "sha256": "c0177cebed5a3fff1c9422b76cb4f3431f933bf413752fcb4bcdc2ee415897ed",
+      "bytes": 1660479,
+      "status": "approved-reference"
+    },
+    {
+      "reference_id": "REF-SOURCE_SELECTION",
+      "path": "references/approved/brand/source-selection.json",
+      "sha256": "fb5e4c9031e8aa09e8554627a3e70b9ba510c4d2dd15cbadddfa663db8a3aa2a",
+      "bytes": 2644,
+      "status": "approved-reference"
+    }
+  ],
+  "slots": [
+    "EX-001",
+    "EX-002",
+    "EX-003",
+    "EX-004",
+    "EX-005",
+    "EX-006",
+    "EX-007",
+    "EX-008",
+    "EX-009",
+    "EX-010"
+  ],
+  "resolved_prompt_sha256": null,
+  "prompt": "# EX-01 — Exploration artistique et interfaces\n\nCrée une série cohérente de dix images indépendantes pour AlgoQuest, une collection originale de livres interactifs dont le joueur est le héros.\n\nLa qualité recherchée est celle d’un jeu illustré avec une direction artistique travaillée : peinture numérique aux matières visibles, compositions soignées, silhouettes lisibles, lumière expressive, détails choisis et cohérence des matériaux. L’univers doit donner envie d’explorer, apprendre, expérimenter et développer son personnage. Il doit convenir aux jeunes et aux adultes sans traitement infantilisant.\n\nRespecte les références approuvées jointes au paquet. Dawncaster, Mythgard et les autres jeux étudiés servent à comprendre la lisibilité, le développement du héros et les interactions ; crée une identité graphique originale pour AlgoQuest.\n\nProduis dix fichiers distincts. Les noms des fichiers et tes commentaires restent à l’extérieur des images. Les couvertures sont sans titre intégré. Les maquettes réservent les espaces du texte et des valeurs qui seront affichés par le code.\n\nDans les maquettes, Algorithm Builder constitue le panneau interactif permanent : personnage, progression, équipement, actions disponibles, mission active, espace d’expérimentation et échange avec Qbit. La page du livre et ce panneau forment une même expérience de jeu.\n\nPour Qbit, conserve l’identité des références fournies. N’invente pas un remplacement.\n\nSi ton outil produit moins de dix fichiers par réponse, continue avec les identifiants restants, sans recommencer les images déjà produites.\n\n## Références à joindre\n\nJoindre `references/approved/qbit/qbit-stencil-guide.png` pour toute représentation de Qbit. Les quatre assets sous `references/approved/brand/` fixent la famille de marque ; ils ne doivent pas être recopiés dans les scènes. Vérifier leurs SHA-256 dans `references/manifest.json`.\n\n## Les dix commandes\n\n### AQ-EX-001__v001.png — Mage des Deux Horizons\n\ncouverture conceptuelle verticale : apprenti devant un observatoire ouvert sur deux horizons célestes, instruments de laiton, bleu nocturne, lumière chaude et sensation de découverte. Les phénomènes illustrés restent des métaphores visuelles.\n\n### AQ-EX-002__v001.png — Ronin des Six Provinces\n\ncouverture conceptuelle verticale : voyageur observant plusieurs routes à travers des provinces contrastées, indigo, vermillon, matière du papier et paysage ample. Faire sentir le choix d’un chemin et ses conséquences.\n\n### AQ-EX-003__v001.png — Couronne des Marées\n\ncouverture conceptuelle verticale : aventure maritime, navire et archipel, turquoise profond, corail et cuivre. Faire sentir navigation, ressources limitées et incertitude.\n\n### AQ-EX-004__v001.png — Alchimiste et Porte du Chêne\n\ncouverture conceptuelle verticale : atelier de transformation devant une porte monumentale de chêne, ambre, ivoire et vert mousse, instruments artisanaux et étapes de transformation visibles.\n\n### AQ-EX-005__v001.png — Neurone Sans Cerveau\n\ncouverture conceptuelle verticale : exploration poétique d’un microcosme de lumière et de particules, violet, cyan et nacre ; un monde à observer et comprendre, sans faux diagramme scientifique.\n\n### AQ-EX-006__v001.png — Citadelle des Algorithmes\n\ncouverture conceptuelle verticale : architecture de pierre et mécanismes transformables, cobalt et ocre, passages, portes et structures dont on comprend visuellement les relations.\n\n### AQ-EX-007__v001.png — Livre sur ordinateur\n\nmaquette panoramique : scène illustrée dominante, lecture confortable, choix clairement accessibles et panneau Algorithm Builder intégré à droite. Montrer une aventure en cours avec une hiérarchie visuelle précise.\n\n### AQ-EX-008__v001.png — Livre sur téléphone\n\nmaquette verticale : illustration, narration, action principale et accès évident au personnage et à la mission. Composer spécifiquement pour le petit écran.\n\n### AQ-EX-009__v001.png — Panneau — personnage\n\nmaquette verticale : portrait, identité, progression, talents, équipement et historique. Exprimer un personnage qui se développe et dont les choix ont laissé des traces.\n\n### AQ-EX-010__v001.png — Panneau — mission et Qbit\n\nmaquette verticale : objectif actif, actions manipulables, zone de construction ou d’essai, résultat observable et aide de Qbit. Conserver la même famille graphique que la fiche du héros.\n"
+}

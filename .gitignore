@@ -1,0 +1,21 @@
+.venv/
+site/
+build/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Raw image drops remain local until immutable review and release packaging.
+images/incoming/**/*.png
+images/incoming/**/*.jpg
+images/incoming/**/*.jpeg
+images/incoming/**/*.webp
+images/submissions/**/originals/*
+images/approved/originals/*
+images/rework/*
+
+!images/**/DROP-HERE.md
+!images/**/PROMPT.md
+!images/**/expected-files.json
+!images/**/packet.json
+!images/**/.gitkeep

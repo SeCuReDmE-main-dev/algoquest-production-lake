@@ -1,0 +1,47 @@
+{
+  "schema": "securedme.education.algoquest.reference-manifest.v1",
+  "references": [
+    {
+      "reference_id": "REF-QBIT_STENCIL_GUIDE",
+      "path": "references/approved/qbit/qbit-stencil-guide.png",
+      "sha256": "2696f2d0eaadcb0aedaaaec3fded3cfd495fd202226a2111042a20f190e8f855",
+      "bytes": 127546,
+      "status": "approved-reference"
+    },
+    {
+      "reference_id": "REF-ALGOQUEST_TINY_MARK",
+      "path": "references/approved/brand/algoquest-tiny-mark.png",
+      "sha256": "cce91c32706fc46ead23a84cdd344d94204da8d8450a3e24fcffb613903d934d",
+      "bytes": 998862,
+      "status": "approved-reference"
+    },
+    {
+      "reference_id": "REF-ALGOQUEST_PUBLIC_BANNER",
+      "path": "references/approved/brand/algoquest-public-banner.png",
+      "sha256": "b0e7ba4b51c25a72413ed094453319686ed2c660bddd4987cb2a8a7e54866270",
+      "bytes": 1777260,
+      "status": "approved-reference"
+    },
+    {
+      "reference_id": "REF-ALGOQUEST_LOGO_LOCKUP",
+      "path": "references/approved/brand/algoquest-logo-lockup.png",
+      "sha256": "091c10754a69f1e85155386a4d2604d39646df4e16a34842f438a1af9128a731",
+      "bytes": 1427183,
+      "status": "approved-reference"
+    },
+    {
+      "reference_id": "REF-ALGOQUEST_COMPANION_BADGE",
+      "path": "references/approved/brand/algoquest-companion-badge.png",
+      "sha256": "c0177cebed5a3fff1c9422b76cb4f3431f933bf413752fcb4bcdc2ee415897ed",
+      "bytes": 1660479,
+      "status": "approved-reference"
+    },
+    {
+      "reference_id": "REF-SOURCE_SELECTION",
+      "path": "references/approved/brand/source-selection.json",
+      "sha256": "fb5e4c9031e8aa09e8554627a3e70b9ba510c4d2dd15cbadddfa663db8a3aa2a",
+      "bytes": 2644,
+      "status": "approved-reference"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "securedme.education.algoquest.prompt-packet.v1",
+  "packet_id": "NEU-B01",
+  "revision": 1,
+  "status": "blocked",
+  "expected_count": 10,
+  "dependencies": [
+    "BOARD-neuron-without-brain",
+    "ART-BASE-01"
+  ],
+  "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+  "references": [],
+  "slots": [
+    "NEU-001",
+    "NEU-002",
+    "NEU-003",
+    "NEU-004",
+    "NEU-005",
+    "NEU-006",
+    "NEU-007",
+    "NEU-008",
+    "NEU-009",
+    "NEU-010"
+  ],
+  "resolved_prompt_sha256": null,
+  "prompt": "# NEU-B01 — Le Neurone Sans Cerveau\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-neuron-without-brain` et de la direction artistique.\n\nCe lot contiendra : cover, map, act-opener-1, act-opener-2, act-opener-3, act-opener-4, act-opener-5, recurring-place-1, recurring-place-2, recurring-place-3. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+}

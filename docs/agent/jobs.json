@@ -1,0 +1,366 @@
+{
+  "schema": "securedme.education.algoquest.job-registry.v1",
+  "jobs": [
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "LAKE-01",
+      "depends_on": [],
+      "status": "accepted",
+      "expected_output": "Repository schemas, 39 packets and 390 slots",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "LAKE-02",
+      "depends_on": [
+        "LAKE-01"
+      ],
+      "status": "accepted",
+      "expected_output": "Executable EX-01 prompt book",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "LAKE-03",
+      "depends_on": [
+        "LAKE-02"
+      ],
+      "status": "running",
+      "expected_output": "Agent exports, docs, WebMCP and publishing",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "ART-BASE-01",
+      "depends_on": [
+        "LAKE-02"
+      ],
+      "status": "ready",
+      "expected_output": "Ten exploration submissions and art-direction review",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "RES-01",
+      "depends_on": [],
+      "status": "accepted",
+      "expected_output": "100 game sources and 25 production-lake sources",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "RES-02",
+      "depends_on": [
+        "RES-01"
+      ],
+      "status": "running",
+      "expected_output": "Deep synthesis and technology decisions",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "STORY-mage-two-horizons",
+      "depends_on": [
+        "RES-02"
+      ],
+      "status": "blocked",
+      "expected_output": "Substantial rewrite of Luna Light draft",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "ADAPT-mage-two-horizons",
+      "depends_on": [
+        "STORY-mage-two-horizons"
+      ],
+      "status": "blocked",
+      "expected_output": "Six playable audience adaptations",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "BOARD-mage-two-horizons",
+      "depends_on": [
+        "STORY-mage-two-horizons",
+        "ADAPT-mage-two-horizons"
+      ],
+      "status": "blocked",
+      "expected_output": "Approved visual storyboard and casting",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "ART-mage-two-horizons",
+      "depends_on": [
+        "BOARD-mage-two-horizons",
+        "ART-BASE-01"
+      ],
+      "status": "blocked",
+      "expected_output": "Six ten-image production batches",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "STORY-ronin-six-provinces",
+      "depends_on": [
+        "RES-02"
+      ],
+      "status": "blocked",
+      "expected_output": "Substantial rewrite of Luna Light draft",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "ADAPT-ronin-six-provinces",
+      "depends_on": [
+        "STORY-ronin-six-provinces"
+      ],
+      "status": "blocked",
+      "expected_output": "Six playable audience adaptations",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "BOARD-ronin-six-provinces",
+      "depends_on": [
+        "STORY-ronin-six-provinces",
+        "ADAPT-ronin-six-provinces"
+      ],
+      "status": "blocked",
+      "expected_output": "Approved visual storyboard and casting",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "ART-ronin-six-provinces",
+      "depends_on": [
+        "BOARD-ronin-six-provinces",
+        "ART-BASE-01"
+      ],
+      "status": "blocked",
+      "expected_output": "Six ten-image production batches",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "STORY-crown-of-tides",
+      "depends_on": [
+        "RES-02"
+      ],
+      "status": "blocked",
+      "expected_output": "Substantial rewrite of Luna Light draft",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "ADAPT-crown-of-tides",
+      "depends_on": [
+        "STORY-crown-of-tides"
+      ],
+      "status": "blocked",
+      "expected_output": "Six playable audience adaptations",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "BOARD-crown-of-tides",
+      "depends_on": [
+        "STORY-crown-of-tides",
+        "ADAPT-crown-of-tides"
+      ],
+      "status": "blocked",
+      "expected_output": "Approved visual storyboard and casting",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "ART-crown-of-tides",
+      "depends_on": [
+        "BOARD-crown-of-tides",
+        "ART-BASE-01"
+      ],
+      "status": "blocked",
+      "expected_output": "Six ten-image production batches",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "STORY-alchemist-oak-gate",
+      "depends_on": [
+        "RES-02"
+      ],
+      "status": "blocked",
+      "expected_output": "Substantial rewrite of Luna Light draft",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "ADAPT-alchemist-oak-gate",
+      "depends_on": [
+        "STORY-alchemist-oak-gate"
+      ],
+      "status": "blocked",
+      "expected_output": "Six playable audience adaptations",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "BOARD-alchemist-oak-gate",
+      "depends_on": [
+        "STORY-alchemist-oak-gate",
+        "ADAPT-alchemist-oak-gate"
+      ],
+      "status": "blocked",
+      "expected_output": "Approved visual storyboard and casting",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "ART-alchemist-oak-gate",
+      "depends_on": [
+        "BOARD-alchemist-oak-gate",
+        "ART-BASE-01"
+      ],
+      "status": "blocked",
+      "expected_output": "Six ten-image production batches",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "STORY-neuron-without-brain",
+      "depends_on": [
+        "RES-02"
+      ],
+      "status": "blocked",
+      "expected_output": "Substantial rewrite of Luna Light draft",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "ADAPT-neuron-without-brain",
+      "depends_on": [
+        "STORY-neuron-without-brain"
+      ],
+      "status": "blocked",
+      "expected_output": "Six playable audience adaptations",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "BOARD-neuron-without-brain",
+      "depends_on": [
+        "STORY-neuron-without-brain",
+        "ADAPT-neuron-without-brain"
+      ],
+      "status": "blocked",
+      "expected_output": "Approved visual storyboard and casting",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "ART-neuron-without-brain",
+      "depends_on": [
+        "BOARD-neuron-without-brain",
+        "ART-BASE-01"
+      ],
+      "status": "blocked",
+      "expected_output": "Six ten-image production batches",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "STORY-algorithm-citadel",
+      "depends_on": [
+        "RES-02"
+      ],
+      "status": "blocked",
+      "expected_output": "Substantial rewrite of Luna Light draft",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "ADAPT-algorithm-citadel",
+      "depends_on": [
+        "STORY-algorithm-citadel"
+      ],
+      "status": "blocked",
+      "expected_output": "Six playable audience adaptations",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "BOARD-algorithm-citadel",
+      "depends_on": [
+        "STORY-algorithm-citadel",
+        "ADAPT-algorithm-citadel"
+      ],
+      "status": "blocked",
+      "expected_output": "Approved visual storyboard and casting",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "ART-algorithm-citadel",
+      "depends_on": [
+        "BOARD-algorithm-citadel",
+        "ART-BASE-01"
+      ],
+      "status": "blocked",
+      "expected_output": "Six ten-image production batches",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "GAME-BASE",
+      "depends_on": [
+        "RES-02",
+        "ART-BASE-01"
+      ],
+      "status": "blocked",
+      "expected_output": "Playable book shell and Algorithm Builder hero panel",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "GAME-SYSTEMS",
+      "depends_on": [
+        "GAME-BASE"
+      ],
+      "status": "blocked",
+      "expected_output": "Progression, missions, saves and tool receipts",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "GAME-CONTENT",
+      "depends_on": [
+        "GAME-SYSTEMS",
+        "ADAPT-mage-two-horizons",
+        "ADAPT-ronin-six-provinces",
+        "ADAPT-crown-of-tides",
+        "ADAPT-alchemist-oak-gate",
+        "ADAPT-neuron-without-brain",
+        "ADAPT-algorithm-citadel"
+      ],
+      "status": "blocked",
+      "expected_output": "Six integrated adventures",
+      "revision": 1
+    },
+    {
+      "schema": "securedme.education.algoquest.production-job.v1",
+      "job_id": "GAME-FINISH",
+      "depends_on": [
+        "GAME-CONTENT",
+        "ART-mage-two-horizons",
+        "ART-ronin-six-provinces",
+        "ART-crown-of-tides",
+        "ART-alchemist-oak-gate",
+        "ART-neuron-without-brain",
+        "ART-algorithm-citadel"
+      ],
+      "status": "blocked",
+      "expected_output": "Visual finish, accessibility and complete playtests",
+      "revision": 1
+    }
+  ]
+}

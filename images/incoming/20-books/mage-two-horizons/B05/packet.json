@@ -1,0 +1,27 @@
+{
+  "schema": "securedme.education.algoquest.prompt-packet.v1",
+  "packet_id": "MAG-B05",
+  "revision": 1,
+  "status": "blocked",
+  "expected_count": 10,
+  "dependencies": [
+    "BOARD-mage-two-horizons",
+    "ART-BASE-01"
+  ],
+  "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+  "references": [],
+  "slots": [
+    "MAG-041",
+    "MAG-042",
+    "MAG-043",
+    "MAG-044",
+    "MAG-045",
+    "MAG-046",
+    "MAG-047",
+    "MAG-048",
+    "MAG-049",
+    "MAG-050"
+  ],
+  "resolved_prompt_sha256": null,
+  "prompt": "# MAG-B05 — Le Mage des Deux Horizons\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-mage-two-horizons` et de la direction artistique.\n\nCe lot contiendra : tool-equipment-1, tool-equipment-2, tool-equipment-3, tool-equipment-4, talent-1, talent-2, talent-3, quest-object-1, quest-object-2, quest-object-3. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+}

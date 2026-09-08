@@ -1,0 +1,186 @@
+{
+  "schema": "securedme.education.algoquest.expected-files.v1",
+  "packet_id": "SH-01",
+  "files": [
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "SH-001",
+      "packet_id": "SH-01",
+      "filename": "AQ-SH-001__v001.png",
+      "revision": 1,
+      "usage": "avatar-01",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 1
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "SH-002",
+      "packet_id": "SH-01",
+      "filename": "AQ-SH-002__v001.png",
+      "revision": 1,
+      "usage": "avatar-02",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 2
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "SH-003",
+      "packet_id": "SH-01",
+      "filename": "AQ-SH-003__v001.png",
+      "revision": 1,
+      "usage": "avatar-03",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 3
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "SH-004",
+      "packet_id": "SH-01",
+      "filename": "AQ-SH-004__v001.png",
+      "revision": 1,
+      "usage": "avatar-04",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 4
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "SH-005",
+      "packet_id": "SH-01",
+      "filename": "AQ-SH-005__v001.png",
+      "revision": 1,
+      "usage": "avatar-05",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 5
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "SH-006",
+      "packet_id": "SH-01",
+      "filename": "AQ-SH-006__v001.png",
+      "revision": 1,
+      "usage": "avatar-06",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 6
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "SH-007",
+      "packet_id": "SH-01",
+      "filename": "AQ-SH-007__v001.png",
+      "revision": 1,
+      "usage": "avatar-07",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 7
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "SH-008",
+      "packet_id": "SH-01",
+      "filename": "AQ-SH-008__v001.png",
+      "revision": 1,
+      "usage": "avatar-08",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 8
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "SH-009",
+      "packet_id": "SH-01",
+      "filename": "AQ-SH-009__v001.png",
+      "revision": 1,
+      "usage": "avatar-09",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 9
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "SH-010",
+      "packet_id": "SH-01",
+      "filename": "AQ-SH-010__v001.png",
+      "revision": 1,
+      "usage": "avatar-10",
+      "status": "blocked",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 10
+    }
+  ]
+}

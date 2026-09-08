@@ -1,0 +1,125 @@
+{
+  "schema": "securedme.education.algoquest.book-registry.v1",
+  "books": [
+    {
+      "schema": "securedme.education.algoquest.production-book.v1",
+      "book_id": "alchemist-oak-gate",
+      "code": "ALC",
+      "title": "L’Alchimiste et la Porte du Chêne",
+      "image_budget": 60,
+      "audiences": [
+        "primary-5-6",
+        "secondary-1-2",
+        "secondary-3-5",
+        "college",
+        "university",
+        "teacher-player"
+      ],
+      "locales": [
+        "fr-CA",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "schema": "securedme.education.algoquest.production-book.v1",
+      "book_id": "algorithm-citadel",
+      "code": "CIT",
+      "title": "La Citadelle des Algorithmes",
+      "image_budget": 60,
+      "audiences": [
+        "primary-5-6",
+        "secondary-1-2",
+        "secondary-3-5",
+        "college",
+        "university",
+        "teacher-player"
+      ],
+      "locales": [
+        "fr-CA",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "schema": "securedme.education.algoquest.production-book.v1",
+      "book_id": "crown-of-tides",
+      "code": "MAR",
+      "title": "La Couronne des Marées",
+      "image_budget": 60,
+      "audiences": [
+        "primary-5-6",
+        "secondary-1-2",
+        "secondary-3-5",
+        "college",
+        "university",
+        "teacher-player"
+      ],
+      "locales": [
+        "fr-CA",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "schema": "securedme.education.algoquest.production-book.v1",
+      "book_id": "mage-two-horizons",
+      "code": "MAG",
+      "title": "Le Mage des Deux Horizons",
+      "image_budget": 60,
+      "audiences": [
+        "primary-5-6",
+        "secondary-1-2",
+        "secondary-3-5",
+        "college",
+        "university",
+        "teacher-player"
+      ],
+      "locales": [
+        "fr-CA",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "schema": "securedme.education.algoquest.production-book.v1",
+      "book_id": "neuron-without-brain",
+      "code": "NEU",
+      "title": "Le Neurone Sans Cerveau",
+      "image_budget": 60,
+      "audiences": [
+        "primary-5-6",
+        "secondary-1-2",
+        "secondary-3-5",
+        "college",
+        "university",
+        "teacher-player"
+      ],
+      "locales": [
+        "fr-CA",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "schema": "securedme.education.algoquest.production-book.v1",
+      "book_id": "ronin-six-provinces",
+      "code": "RON",
+      "title": "Le Ronin des Six Provinces",
+      "image_budget": 60,
+      "audiences": [
+        "primary-5-6",
+        "secondary-1-2",
+        "secondary-3-5",
+        "college",
+        "university",
+        "teacher-player"
+      ],
+      "locales": [
+        "fr-CA",
+        "en",
+        "es"
+      ]
+    }
+  ]
+}

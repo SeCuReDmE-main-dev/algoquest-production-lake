@@ -1,0 +1,27 @@
+{
+  "schema": "securedme.education.algoquest.prompt-packet.v1",
+  "packet_id": "ALC-B04",
+  "revision": 1,
+  "status": "blocked",
+  "expected_count": 10,
+  "dependencies": [
+    "BOARD-alchemist-oak-gate",
+    "ART-BASE-01"
+  ],
+  "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+  "references": [],
+  "slots": [
+    "ALC-031",
+    "ALC-032",
+    "ALC-033",
+    "ALC-034",
+    "ALC-035",
+    "ALC-036",
+    "ALC-037",
+    "ALC-038",
+    "ALC-039",
+    "ALC-040"
+  ],
+  "resolved_prompt_sha256": null,
+  "prompt": "# ALC-B04 — L’Alchimiste et la Porte du Chêne\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-alchemist-oak-gate` et de la direction artistique.\n\nCe lot contiendra : cast-portrait-expression-1, cast-portrait-expression-2, cast-portrait-expression-3, cast-portrait-expression-4, cast-portrait-expression-5, cast-portrait-expression-6, cast-portrait-expression-7, cast-portrait-expression-8, cast-portrait-expression-9, cast-portrait-expression-10. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+}

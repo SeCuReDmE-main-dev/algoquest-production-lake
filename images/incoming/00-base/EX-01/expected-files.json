@@ -1,0 +1,186 @@
+{
+  "schema": "securedme.education.algoquest.expected-files.v1",
+  "packet_id": "EX-01",
+  "files": [
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "EX-001",
+      "packet_id": "EX-01",
+      "filename": "AQ-EX-001__v001.png",
+      "revision": 1,
+      "usage": "Mage des Deux Horizons",
+      "status": "planned",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 1
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "EX-002",
+      "packet_id": "EX-01",
+      "filename": "AQ-EX-002__v001.png",
+      "revision": 1,
+      "usage": "Ronin des Six Provinces",
+      "status": "planned",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 2
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "EX-003",
+      "packet_id": "EX-01",
+      "filename": "AQ-EX-003__v001.png",
+      "revision": 1,
+      "usage": "Couronne des Marées",
+      "status": "planned",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 3
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "EX-004",
+      "packet_id": "EX-01",
+      "filename": "AQ-EX-004__v001.png",
+      "revision": 1,
+      "usage": "Alchimiste et Porte du Chêne",
+      "status": "planned",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 4
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "EX-005",
+      "packet_id": "EX-01",
+      "filename": "AQ-EX-005__v001.png",
+      "revision": 1,
+      "usage": "Neurone Sans Cerveau",
+      "status": "planned",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 5
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "EX-006",
+      "packet_id": "EX-01",
+      "filename": "AQ-EX-006__v001.png",
+      "revision": 1,
+      "usage": "Citadelle des Algorithmes",
+      "status": "planned",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 6
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "EX-007",
+      "packet_id": "EX-01",
+      "filename": "AQ-EX-007__v001.png",
+      "revision": 1,
+      "usage": "Livre sur ordinateur",
+      "status": "planned",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 7
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "EX-008",
+      "packet_id": "EX-01",
+      "filename": "AQ-EX-008__v001.png",
+      "revision": 1,
+      "usage": "Livre sur téléphone",
+      "status": "planned",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 8
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "EX-009",
+      "packet_id": "EX-01",
+      "filename": "AQ-EX-009__v001.png",
+      "revision": 1,
+      "usage": "Panneau — personnage",
+      "status": "planned",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 9
+    },
+    {
+      "$schema": "../../../schemas/ImageSlot.v1.schema.json",
+      "schema": "securedme.education.algoquest.image-slot.v1",
+      "slot_id": "EX-010",
+      "packet_id": "EX-01",
+      "filename": "AQ-EX-010__v001.png",
+      "revision": 1,
+      "usage": "Panneau — mission et Qbit",
+      "status": "planned",
+      "language_scope": "shared-fr-en-es",
+      "audience_scope": "shared-six-publics",
+      "constraints": {
+        "separate_file": true,
+        "embedded_text": false,
+        "original_visual_identity": true
+      },
+      "ordinal": 10
+    }
+  ]
+}

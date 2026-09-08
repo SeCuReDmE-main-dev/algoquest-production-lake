@@ -1,0 +1,20 @@
+{
+  "schema": "securedme.education.algoquest.production-book.v1",
+  "book_id": "neuron-without-brain",
+  "code": "NEU",
+  "title": "Le Neurone Sans Cerveau",
+  "image_budget": 60,
+  "audiences": [
+    "primary-5-6",
+    "secondary-1-2",
+    "secondary-3-5",
+    "college",
+    "university",
+    "teacher-player"
+  ],
+  "locales": [
+    "fr-CA",
+    "en",
+    "es"
+  ]
+}

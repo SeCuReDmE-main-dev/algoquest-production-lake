@@ -1,0 +1,201 @@
+{
+  "schema": "securedme.education.algoquest.packet-registry.v1",
+  "count": 39,
+  "packets": [
+    {
+      "packet_id": "EX-01",
+      "status": "ready",
+      "path": "images/incoming/00-base/EX-01"
+    },
+    {
+      "packet_id": "SH-01",
+      "status": "blocked",
+      "path": "images/incoming/10-shared/SH-01"
+    },
+    {
+      "packet_id": "SH-02",
+      "status": "blocked",
+      "path": "images/incoming/10-shared/SH-02"
+    },
+    {
+      "packet_id": "MAG-B01",
+      "status": "blocked",
+      "path": "images/incoming/20-books/mage-two-horizons/B01"
+    },
+    {
+      "packet_id": "MAG-B02",
+      "status": "blocked",
+      "path": "images/incoming/20-books/mage-two-horizons/B02"
+    },
+    {
+      "packet_id": "MAG-B03",
+      "status": "blocked",
+      "path": "images/incoming/20-books/mage-two-horizons/B03"
+    },
+    {
+      "packet_id": "MAG-B04",
+      "status": "blocked",
+      "path": "images/incoming/20-books/mage-two-horizons/B04"
+    },
+    {
+      "packet_id": "MAG-B05",
+      "status": "blocked",
+      "path": "images/incoming/20-books/mage-two-horizons/B05"
+    },
+    {
+      "packet_id": "MAG-B06",
+      "status": "blocked",
+      "path": "images/incoming/20-books/mage-two-horizons/B06"
+    },
+    {
+      "packet_id": "RON-B01",
+      "status": "blocked",
+      "path": "images/incoming/20-books/ronin-six-provinces/B01"
+    },
+    {
+      "packet_id": "RON-B02",
+      "status": "blocked",
+      "path": "images/incoming/20-books/ronin-six-provinces/B02"
+    },
+    {
+      "packet_id": "RON-B03",
+      "status": "blocked",
+      "path": "images/incoming/20-books/ronin-six-provinces/B03"
+    },
+    {
+      "packet_id": "RON-B04",
+      "status": "blocked",
+      "path": "images/incoming/20-books/ronin-six-provinces/B04"
+    },
+    {
+      "packet_id": "RON-B05",
+      "status": "blocked",
+      "path": "images/incoming/20-books/ronin-six-provinces/B05"
+    },
+    {
+      "packet_id": "RON-B06",
+      "status": "blocked",
+      "path": "images/incoming/20-books/ronin-six-provinces/B06"
+    },
+    {
+      "packet_id": "MAR-B01",
+      "status": "blocked",
+      "path": "images/incoming/20-books/crown-of-tides/B01"
+    },
+    {
+      "packet_id": "MAR-B02",
+      "status": "blocked",
+      "path": "images/incoming/20-books/crown-of-tides/B02"
+    },
+    {
+      "packet_id": "MAR-B03",
+      "status": "blocked",
+      "path": "images/incoming/20-books/crown-of-tides/B03"
+    },
+    {
+      "packet_id": "MAR-B04",
+      "status": "blocked",
+      "path": "images/incoming/20-books/crown-of-tides/B04"
+    },
+    {
+      "packet_id": "MAR-B05",
+      "status": "blocked",
+      "path": "images/incoming/20-books/crown-of-tides/B05"
+    },
+    {
+      "packet_id": "MAR-B06",
+      "status": "blocked",
+      "path": "images/incoming/20-books/crown-of-tides/B06"
+    },
+    {
+      "packet_id": "ALC-B01",
+      "status": "blocked",
+      "path": "images/incoming/20-books/alchemist-oak-gate/B01"
+    },
+    {
+      "packet_id": "ALC-B02",
+      "status": "blocked",
+      "path": "images/incoming/20-books/alchemist-oak-gate/B02"
+    },
+    {
+      "packet_id": "ALC-B03",
+      "status": "blocked",
+      "path": "images/incoming/20-books/alchemist-oak-gate/B03"
+    },
+    {
+      "packet_id": "ALC-B04",
+      "status": "blocked",
+      "path": "images/incoming/20-books/alchemist-oak-gate/B04"
+    },
+    {
+      "packet_id": "ALC-B05",
+      "status": "blocked",
+      "path": "images/incoming/20-books/alchemist-oak-gate/B05"
+    },
+    {
+      "packet_id": "ALC-B06",
+      "status": "blocked",
+      "path": "images/incoming/20-books/alchemist-oak-gate/B06"
+    },
+    {
+      "packet_id": "NEU-B01",
+      "status": "blocked",
+      "path": "images/incoming/20-books/neuron-without-brain/B01"
+    },
+    {
+      "packet_id": "NEU-B02",
+      "status": "blocked",
+      "path": "images/incoming/20-books/neuron-without-brain/B02"
+    },
+    {
+      "packet_id": "NEU-B03",
+      "status": "blocked",
+      "path": "images/incoming/20-books/neuron-without-brain/B03"
+    },
+    {
+      "packet_id": "NEU-B04",
+      "status": "blocked",
+      "path": "images/incoming/20-books/neuron-without-brain/B04"
+    },
+    {
+      "packet_id": "NEU-B05",
+      "status": "blocked",
+      "path": "images/incoming/20-books/neuron-without-brain/B05"
+    },
+    {
+      "packet_id": "NEU-B06",
+      "status": "blocked",
+      "path": "images/incoming/20-books/neuron-without-brain/B06"
+    },
+    {
+      "packet_id": "CIT-B01",
+      "status": "blocked",
+      "path": "images/incoming/20-books/algorithm-citadel/B01"
+    },
+    {
+      "packet_id": "CIT-B02",
+      "status": "blocked",
+      "path": "images/incoming/20-books/algorithm-citadel/B02"
+    },
+    {
+      "packet_id": "CIT-B03",
+      "status": "blocked",
+      "path": "images/incoming/20-books/algorithm-citadel/B03"
+    },
+    {
+      "packet_id": "CIT-B04",
+      "status": "blocked",
+      "path": "images/incoming/20-books/algorithm-citadel/B04"
+    },
+    {
+      "packet_id": "CIT-B05",
+      "status": "blocked",
+      "path": "images/incoming/20-books/algorithm-citadel/B05"
+    },
+    {
+      "packet_id": "CIT-B06",
+      "status": "blocked",
+      "path": "images/incoming/20-books/algorithm-citadel/B06"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "securedme.education.algoquest.prompt-packet.v1",
+  "packet_id": "CIT-B03",
+  "revision": 1,
+  "status": "blocked",
+  "expected_count": 10,
+  "dependencies": [
+    "BOARD-algorithm-citadel",
+    "ART-BASE-01"
+  ],
+  "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+  "references": [],
+  "slots": [
+    "CIT-021",
+    "CIT-022",
+    "CIT-023",
+    "CIT-024",
+    "CIT-025",
+    "CIT-026",
+    "CIT-027",
+    "CIT-028",
+    "CIT-029",
+    "CIT-030"
+  ],
+  "resolved_prompt_sha256": null,
+  "prompt": "# CIT-B03 — La Citadelle des Algorithmes\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-algorithm-citadel` et de la direction artistique.\n\nCe lot contiendra : playable-scene-11, playable-scene-12, playable-scene-13, playable-scene-14, playable-scene-15, playable-scene-16, playable-scene-17, playable-scene-18, playable-scene-19, playable-scene-20. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+}

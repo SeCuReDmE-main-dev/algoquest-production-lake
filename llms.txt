@@ -1,0 +1,14 @@
+# AlgoQuest Production Lake
+
+> Versioned production data for AlgoQuest images, prompt packets, research and job dependencies.
+
+- Agent index: /algoquest-production-lake/agent/index.json
+- Prompt packets: /algoquest-production-lake/agent/packets.json
+- Prompt packet details: /algoquest-production-lake/agent/packet-details.json
+- Books: /algoquest-production-lake/agent/books.json
+- Image slots: /algoquest-production-lake/agent/image-slots.json
+- Research sources: /algoquest-production-lake/agent/research-sources.jsonl
+- Jobs: /algoquest-production-lake/agent/jobs.json
+- Human guide: /algoquest-production-lake/
+
+The public site is read-only. Do not place learner data, credentials, private correspondence or raw secrets in proposals.

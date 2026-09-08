@@ -1,0 +1,1096 @@
+{
+  "schema": "securedme.education.algoquest.packet-details.v1",
+  "packets": {
+    "EX-01": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "EX-01",
+      "revision": 1,
+      "status": "ready",
+      "expected_count": 10,
+      "dependencies": [],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [
+        {
+          "reference_id": "REF-QBIT_STENCIL_GUIDE",
+          "path": "references/approved/qbit/qbit-stencil-guide.png",
+          "sha256": "2696f2d0eaadcb0aedaaaec3fded3cfd495fd202226a2111042a20f190e8f855",
+          "bytes": 127546,
+          "status": "approved-reference"
+        },
+        {
+          "reference_id": "REF-ALGOQUEST_TINY_MARK",
+          "path": "references/approved/brand/algoquest-tiny-mark.png",
+          "sha256": "cce91c32706fc46ead23a84cdd344d94204da8d8450a3e24fcffb613903d934d",
+          "bytes": 998862,
+          "status": "approved-reference"
+        },
+        {
+          "reference_id": "REF-ALGOQUEST_PUBLIC_BANNER",
+          "path": "references/approved/brand/algoquest-public-banner.png",
+          "sha256": "b0e7ba4b51c25a72413ed094453319686ed2c660bddd4987cb2a8a7e54866270",
+          "bytes": 1777260,
+          "status": "approved-reference"
+        },
+        {
+          "reference_id": "REF-ALGOQUEST_LOGO_LOCKUP",
+          "path": "references/approved/brand/algoquest-logo-lockup.png",
+          "sha256": "091c10754a69f1e85155386a4d2604d39646df4e16a34842f438a1af9128a731",
+          "bytes": 1427183,
+          "status": "approved-reference"
+        },
+        {
+          "reference_id": "REF-ALGOQUEST_COMPANION_BADGE",
+          "path": "references/approved/brand/algoquest-companion-badge.png",
+          "sha256": "c0177cebed5a3fff1c9422b76cb4f3431f933bf413752fcb4bcdc2ee415897ed",
+          "bytes": 1660479,
+          "status": "approved-reference"
+        },
+        {
+          "reference_id": "REF-SOURCE_SELECTION",
+          "path": "references/approved/brand/source-selection.json",
+          "sha256": "fb5e4c9031e8aa09e8554627a3e70b9ba510c4d2dd15cbadddfa663db8a3aa2a",
+          "bytes": 2644,
+          "status": "approved-reference"
+        }
+      ],
+      "slots": [
+        "EX-001",
+        "EX-002",
+        "EX-003",
+        "EX-004",
+        "EX-005",
+        "EX-006",
+        "EX-007",
+        "EX-008",
+        "EX-009",
+        "EX-010"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# EX-01 — Exploration artistique et interfaces\n\nCrée une série cohérente de dix images indépendantes pour AlgoQuest, une collection originale de livres interactifs dont le joueur est le héros.\n\nLa qualité recherchée est celle d’un jeu illustré avec une direction artistique travaillée : peinture numérique aux matières visibles, compositions soignées, silhouettes lisibles, lumière expressive, détails choisis et cohérence des matériaux. L’univers doit donner envie d’explorer, apprendre, expérimenter et développer son personnage. Il doit convenir aux jeunes et aux adultes sans traitement infantilisant.\n\nRespecte les références approuvées jointes au paquet. Dawncaster, Mythgard et les autres jeux étudiés servent à comprendre la lisibilité, le développement du héros et les interactions ; crée une identité graphique originale pour AlgoQuest.\n\nProduis dix fichiers distincts. Les noms des fichiers et tes commentaires restent à l’extérieur des images. Les couvertures sont sans titre intégré. Les maquettes réservent les espaces du texte et des valeurs qui seront affichés par le code.\n\nDans les maquettes, Algorithm Builder constitue le panneau interactif permanent : personnage, progression, équipement, actions disponibles, mission active, espace d’expérimentation et échange avec Qbit. La page du livre et ce panneau forment une même expérience de jeu.\n\nPour Qbit, conserve l’identité des références fournies. N’invente pas un remplacement.\n\nSi ton outil produit moins de dix fichiers par réponse, continue avec les identifiants restants, sans recommencer les images déjà produites.\n\n## Références à joindre\n\nJoindre `references/approved/qbit/qbit-stencil-guide.png` pour toute représentation de Qbit. Les quatre assets sous `references/approved/brand/` fixent la famille de marque ; ils ne doivent pas être recopiés dans les scènes. Vérifier leurs SHA-256 dans `references/manifest.json`.\n\n## Les dix commandes\n\n### AQ-EX-001__v001.png — Mage des Deux Horizons\n\ncouverture conceptuelle verticale : apprenti devant un observatoire ouvert sur deux horizons célestes, instruments de laiton, bleu nocturne, lumière chaude et sensation de découverte. Les phénomènes illustrés restent des métaphores visuelles.\n\n### AQ-EX-002__v001.png — Ronin des Six Provinces\n\ncouverture conceptuelle verticale : voyageur observant plusieurs routes à travers des provinces contrastées, indigo, vermillon, matière du papier et paysage ample. Faire sentir le choix d’un chemin et ses conséquences.\n\n### AQ-EX-003__v001.png — Couronne des Marées\n\ncouverture conceptuelle verticale : aventure maritime, navire et archipel, turquoise profond, corail et cuivre. Faire sentir navigation, ressources limitées et incertitude.\n\n### AQ-EX-004__v001.png — Alchimiste et Porte du Chêne\n\ncouverture conceptuelle verticale : atelier de transformation devant une porte monumentale de chêne, ambre, ivoire et vert mousse, instruments artisanaux et étapes de transformation visibles.\n\n### AQ-EX-005__v001.png — Neurone Sans Cerveau\n\ncouverture conceptuelle verticale : exploration poétique d’un microcosme de lumière et de particules, violet, cyan et nacre ; un monde à observer et comprendre, sans faux diagramme scientifique.\n\n### AQ-EX-006__v001.png — Citadelle des Algorithmes\n\ncouverture conceptuelle verticale : architecture de pierre et mécanismes transformables, cobalt et ocre, passages, portes et structures dont on comprend visuellement les relations.\n\n### AQ-EX-007__v001.png — Livre sur ordinateur\n\nmaquette panoramique : scène illustrée dominante, lecture confortable, choix clairement accessibles et panneau Algorithm Builder intégré à droite. Montrer une aventure en cours avec une hiérarchie visuelle précise.\n\n### AQ-EX-008__v001.png — Livre sur téléphone\n\nmaquette verticale : illustration, narration, action principale et accès évident au personnage et à la mission. Composer spécifiquement pour le petit écran.\n\n### AQ-EX-009__v001.png — Panneau — personnage\n\nmaquette verticale : portrait, identité, progression, talents, équipement et historique. Exprimer un personnage qui se développe et dont les choix ont laissé des traces.\n\n### AQ-EX-010__v001.png — Panneau — mission et Qbit\n\nmaquette verticale : objectif actif, actions manipulables, zone de construction ou d’essai, résultat observable et aide de Qbit. Conserver la même famille graphique que la fiche du héros.\n"
+    },
+    "SH-01": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "SH-01",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "SH-001",
+        "SH-002",
+        "SH-003",
+        "SH-004",
+        "SH-005",
+        "SH-006",
+        "SH-007",
+        "SH-008",
+        "SH-009",
+        "SH-010"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# SH-01 — Assets communs\n\nÉTAT : BLOQUÉ. Ce paquet sera résolu après validation de la direction artistique EX-01 et des références Qbit.\n\nPérimètre : avatar-01, avatar-02, avatar-03, avatar-04, avatar-05, avatar-06, avatar-07, avatar-08, avatar-09, avatar-10.\n"
+    },
+    "SH-02": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "SH-02",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "SH-011",
+        "SH-012",
+        "SH-013",
+        "SH-014",
+        "SH-015",
+        "SH-016",
+        "SH-017",
+        "SH-018",
+        "SH-019",
+        "SH-020"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# SH-02 — Assets communs\n\nÉTAT : BLOQUÉ. Ce paquet sera résolu après validation de la direction artistique EX-01 et des références Qbit.\n\nPérimètre : qbit-pose-01, qbit-pose-02, qbit-pose-03, qbit-pose-04, qbit-pose-05, qbit-pose-06, landing, library, tutorial, collection.\n"
+    },
+    "MAG-B01": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "MAG-B01",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-mage-two-horizons",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "MAG-001",
+        "MAG-002",
+        "MAG-003",
+        "MAG-004",
+        "MAG-005",
+        "MAG-006",
+        "MAG-007",
+        "MAG-008",
+        "MAG-009",
+        "MAG-010"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# MAG-B01 — Le Mage des Deux Horizons\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-mage-two-horizons` et de la direction artistique.\n\nCe lot contiendra : cover, map, act-opener-1, act-opener-2, act-opener-3, act-opener-4, act-opener-5, recurring-place-1, recurring-place-2, recurring-place-3. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "MAG-B02": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "MAG-B02",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-mage-two-horizons",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "MAG-011",
+        "MAG-012",
+        "MAG-013",
+        "MAG-014",
+        "MAG-015",
+        "MAG-016",
+        "MAG-017",
+        "MAG-018",
+        "MAG-019",
+        "MAG-020"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# MAG-B02 — Le Mage des Deux Horizons\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-mage-two-horizons` et de la direction artistique.\n\nCe lot contiendra : playable-scene-1, playable-scene-2, playable-scene-3, playable-scene-4, playable-scene-5, playable-scene-6, playable-scene-7, playable-scene-8, playable-scene-9, playable-scene-10. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "MAG-B03": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "MAG-B03",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-mage-two-horizons",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "MAG-021",
+        "MAG-022",
+        "MAG-023",
+        "MAG-024",
+        "MAG-025",
+        "MAG-026",
+        "MAG-027",
+        "MAG-028",
+        "MAG-029",
+        "MAG-030"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# MAG-B03 — Le Mage des Deux Horizons\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-mage-two-horizons` et de la direction artistique.\n\nCe lot contiendra : playable-scene-11, playable-scene-12, playable-scene-13, playable-scene-14, playable-scene-15, playable-scene-16, playable-scene-17, playable-scene-18, playable-scene-19, playable-scene-20. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "MAG-B04": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "MAG-B04",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-mage-two-horizons",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "MAG-031",
+        "MAG-032",
+        "MAG-033",
+        "MAG-034",
+        "MAG-035",
+        "MAG-036",
+        "MAG-037",
+        "MAG-038",
+        "MAG-039",
+        "MAG-040"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# MAG-B04 — Le Mage des Deux Horizons\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-mage-two-horizons` et de la direction artistique.\n\nCe lot contiendra : cast-portrait-expression-1, cast-portrait-expression-2, cast-portrait-expression-3, cast-portrait-expression-4, cast-portrait-expression-5, cast-portrait-expression-6, cast-portrait-expression-7, cast-portrait-expression-8, cast-portrait-expression-9, cast-portrait-expression-10. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "MAG-B05": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "MAG-B05",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-mage-two-horizons",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "MAG-041",
+        "MAG-042",
+        "MAG-043",
+        "MAG-044",
+        "MAG-045",
+        "MAG-046",
+        "MAG-047",
+        "MAG-048",
+        "MAG-049",
+        "MAG-050"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# MAG-B05 — Le Mage des Deux Horizons\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-mage-two-horizons` et de la direction artistique.\n\nCe lot contiendra : tool-equipment-1, tool-equipment-2, tool-equipment-3, tool-equipment-4, talent-1, talent-2, talent-3, quest-object-1, quest-object-2, quest-object-3. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "MAG-B06": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "MAG-B06",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-mage-two-horizons",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "MAG-051",
+        "MAG-052",
+        "MAG-053",
+        "MAG-054",
+        "MAG-055",
+        "MAG-056",
+        "MAG-057",
+        "MAG-058",
+        "MAG-059",
+        "MAG-060"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# MAG-B06 — Le Mage des Deux Horizons\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-mage-two-horizons` et de la direction artistique.\n\nCe lot contiendra : changed-state-1, changed-state-2, changed-state-3, changed-state-4, changed-state-5, changed-state-6, branch-scene-1, branch-scene-2, conclusion-variation-1, conclusion-variation-2. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "RON-B01": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "RON-B01",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-ronin-six-provinces",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "RON-001",
+        "RON-002",
+        "RON-003",
+        "RON-004",
+        "RON-005",
+        "RON-006",
+        "RON-007",
+        "RON-008",
+        "RON-009",
+        "RON-010"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# RON-B01 — Le Ronin des Six Provinces\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-ronin-six-provinces` et de la direction artistique.\n\nCe lot contiendra : cover, map, act-opener-1, act-opener-2, act-opener-3, act-opener-4, act-opener-5, recurring-place-1, recurring-place-2, recurring-place-3. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "RON-B02": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "RON-B02",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-ronin-six-provinces",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "RON-011",
+        "RON-012",
+        "RON-013",
+        "RON-014",
+        "RON-015",
+        "RON-016",
+        "RON-017",
+        "RON-018",
+        "RON-019",
+        "RON-020"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# RON-B02 — Le Ronin des Six Provinces\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-ronin-six-provinces` et de la direction artistique.\n\nCe lot contiendra : playable-scene-1, playable-scene-2, playable-scene-3, playable-scene-4, playable-scene-5, playable-scene-6, playable-scene-7, playable-scene-8, playable-scene-9, playable-scene-10. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "RON-B03": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "RON-B03",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-ronin-six-provinces",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "RON-021",
+        "RON-022",
+        "RON-023",
+        "RON-024",
+        "RON-025",
+        "RON-026",
+        "RON-027",
+        "RON-028",
+        "RON-029",
+        "RON-030"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# RON-B03 — Le Ronin des Six Provinces\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-ronin-six-provinces` et de la direction artistique.\n\nCe lot contiendra : playable-scene-11, playable-scene-12, playable-scene-13, playable-scene-14, playable-scene-15, playable-scene-16, playable-scene-17, playable-scene-18, playable-scene-19, playable-scene-20. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "RON-B04": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "RON-B04",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-ronin-six-provinces",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "RON-031",
+        "RON-032",
+        "RON-033",
+        "RON-034",
+        "RON-035",
+        "RON-036",
+        "RON-037",
+        "RON-038",
+        "RON-039",
+        "RON-040"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# RON-B04 — Le Ronin des Six Provinces\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-ronin-six-provinces` et de la direction artistique.\n\nCe lot contiendra : cast-portrait-expression-1, cast-portrait-expression-2, cast-portrait-expression-3, cast-portrait-expression-4, cast-portrait-expression-5, cast-portrait-expression-6, cast-portrait-expression-7, cast-portrait-expression-8, cast-portrait-expression-9, cast-portrait-expression-10. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "RON-B05": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "RON-B05",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-ronin-six-provinces",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "RON-041",
+        "RON-042",
+        "RON-043",
+        "RON-044",
+        "RON-045",
+        "RON-046",
+        "RON-047",
+        "RON-048",
+        "RON-049",
+        "RON-050"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# RON-B05 — Le Ronin des Six Provinces\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-ronin-six-provinces` et de la direction artistique.\n\nCe lot contiendra : tool-equipment-1, tool-equipment-2, tool-equipment-3, tool-equipment-4, talent-1, talent-2, talent-3, quest-object-1, quest-object-2, quest-object-3. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "RON-B06": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "RON-B06",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-ronin-six-provinces",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "RON-051",
+        "RON-052",
+        "RON-053",
+        "RON-054",
+        "RON-055",
+        "RON-056",
+        "RON-057",
+        "RON-058",
+        "RON-059",
+        "RON-060"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# RON-B06 — Le Ronin des Six Provinces\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-ronin-six-provinces` et de la direction artistique.\n\nCe lot contiendra : changed-state-1, changed-state-2, changed-state-3, changed-state-4, changed-state-5, changed-state-6, branch-scene-1, branch-scene-2, conclusion-variation-1, conclusion-variation-2. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "MAR-B01": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "MAR-B01",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-crown-of-tides",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "MAR-001",
+        "MAR-002",
+        "MAR-003",
+        "MAR-004",
+        "MAR-005",
+        "MAR-006",
+        "MAR-007",
+        "MAR-008",
+        "MAR-009",
+        "MAR-010"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# MAR-B01 — La Couronne des Marées\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-crown-of-tides` et de la direction artistique.\n\nCe lot contiendra : cover, map, act-opener-1, act-opener-2, act-opener-3, act-opener-4, act-opener-5, recurring-place-1, recurring-place-2, recurring-place-3. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "MAR-B02": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "MAR-B02",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-crown-of-tides",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "MAR-011",
+        "MAR-012",
+        "MAR-013",
+        "MAR-014",
+        "MAR-015",
+        "MAR-016",
+        "MAR-017",
+        "MAR-018",
+        "MAR-019",
+        "MAR-020"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# MAR-B02 — La Couronne des Marées\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-crown-of-tides` et de la direction artistique.\n\nCe lot contiendra : playable-scene-1, playable-scene-2, playable-scene-3, playable-scene-4, playable-scene-5, playable-scene-6, playable-scene-7, playable-scene-8, playable-scene-9, playable-scene-10. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "MAR-B03": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "MAR-B03",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-crown-of-tides",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "MAR-021",
+        "MAR-022",
+        "MAR-023",
+        "MAR-024",
+        "MAR-025",
+        "MAR-026",
+        "MAR-027",
+        "MAR-028",
+        "MAR-029",
+        "MAR-030"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# MAR-B03 — La Couronne des Marées\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-crown-of-tides` et de la direction artistique.\n\nCe lot contiendra : playable-scene-11, playable-scene-12, playable-scene-13, playable-scene-14, playable-scene-15, playable-scene-16, playable-scene-17, playable-scene-18, playable-scene-19, playable-scene-20. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "MAR-B04": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "MAR-B04",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-crown-of-tides",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "MAR-031",
+        "MAR-032",
+        "MAR-033",
+        "MAR-034",
+        "MAR-035",
+        "MAR-036",
+        "MAR-037",
+        "MAR-038",
+        "MAR-039",
+        "MAR-040"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# MAR-B04 — La Couronne des Marées\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-crown-of-tides` et de la direction artistique.\n\nCe lot contiendra : cast-portrait-expression-1, cast-portrait-expression-2, cast-portrait-expression-3, cast-portrait-expression-4, cast-portrait-expression-5, cast-portrait-expression-6, cast-portrait-expression-7, cast-portrait-expression-8, cast-portrait-expression-9, cast-portrait-expression-10. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "MAR-B05": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "MAR-B05",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-crown-of-tides",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "MAR-041",
+        "MAR-042",
+        "MAR-043",
+        "MAR-044",
+        "MAR-045",
+        "MAR-046",
+        "MAR-047",
+        "MAR-048",
+        "MAR-049",
+        "MAR-050"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# MAR-B05 — La Couronne des Marées\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-crown-of-tides` et de la direction artistique.\n\nCe lot contiendra : tool-equipment-1, tool-equipment-2, tool-equipment-3, tool-equipment-4, talent-1, talent-2, talent-3, quest-object-1, quest-object-2, quest-object-3. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "MAR-B06": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "MAR-B06",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-crown-of-tides",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "MAR-051",
+        "MAR-052",
+        "MAR-053",
+        "MAR-054",
+        "MAR-055",
+        "MAR-056",
+        "MAR-057",
+        "MAR-058",
+        "MAR-059",
+        "MAR-060"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# MAR-B06 — La Couronne des Marées\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-crown-of-tides` et de la direction artistique.\n\nCe lot contiendra : changed-state-1, changed-state-2, changed-state-3, changed-state-4, changed-state-5, changed-state-6, branch-scene-1, branch-scene-2, conclusion-variation-1, conclusion-variation-2. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "ALC-B01": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "ALC-B01",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-alchemist-oak-gate",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "ALC-001",
+        "ALC-002",
+        "ALC-003",
+        "ALC-004",
+        "ALC-005",
+        "ALC-006",
+        "ALC-007",
+        "ALC-008",
+        "ALC-009",
+        "ALC-010"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# ALC-B01 — L’Alchimiste et la Porte du Chêne\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-alchemist-oak-gate` et de la direction artistique.\n\nCe lot contiendra : cover, map, act-opener-1, act-opener-2, act-opener-3, act-opener-4, act-opener-5, recurring-place-1, recurring-place-2, recurring-place-3. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "ALC-B02": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "ALC-B02",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-alchemist-oak-gate",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "ALC-011",
+        "ALC-012",
+        "ALC-013",
+        "ALC-014",
+        "ALC-015",
+        "ALC-016",
+        "ALC-017",
+        "ALC-018",
+        "ALC-019",
+        "ALC-020"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# ALC-B02 — L’Alchimiste et la Porte du Chêne\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-alchemist-oak-gate` et de la direction artistique.\n\nCe lot contiendra : playable-scene-1, playable-scene-2, playable-scene-3, playable-scene-4, playable-scene-5, playable-scene-6, playable-scene-7, playable-scene-8, playable-scene-9, playable-scene-10. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "ALC-B03": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "ALC-B03",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-alchemist-oak-gate",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "ALC-021",
+        "ALC-022",
+        "ALC-023",
+        "ALC-024",
+        "ALC-025",
+        "ALC-026",
+        "ALC-027",
+        "ALC-028",
+        "ALC-029",
+        "ALC-030"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# ALC-B03 — L’Alchimiste et la Porte du Chêne\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-alchemist-oak-gate` et de la direction artistique.\n\nCe lot contiendra : playable-scene-11, playable-scene-12, playable-scene-13, playable-scene-14, playable-scene-15, playable-scene-16, playable-scene-17, playable-scene-18, playable-scene-19, playable-scene-20. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "ALC-B04": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "ALC-B04",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-alchemist-oak-gate",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "ALC-031",
+        "ALC-032",
+        "ALC-033",
+        "ALC-034",
+        "ALC-035",
+        "ALC-036",
+        "ALC-037",
+        "ALC-038",
+        "ALC-039",
+        "ALC-040"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# ALC-B04 — L’Alchimiste et la Porte du Chêne\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-alchemist-oak-gate` et de la direction artistique.\n\nCe lot contiendra : cast-portrait-expression-1, cast-portrait-expression-2, cast-portrait-expression-3, cast-portrait-expression-4, cast-portrait-expression-5, cast-portrait-expression-6, cast-portrait-expression-7, cast-portrait-expression-8, cast-portrait-expression-9, cast-portrait-expression-10. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "ALC-B05": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "ALC-B05",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-alchemist-oak-gate",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "ALC-041",
+        "ALC-042",
+        "ALC-043",
+        "ALC-044",
+        "ALC-045",
+        "ALC-046",
+        "ALC-047",
+        "ALC-048",
+        "ALC-049",
+        "ALC-050"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# ALC-B05 — L’Alchimiste et la Porte du Chêne\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-alchemist-oak-gate` et de la direction artistique.\n\nCe lot contiendra : tool-equipment-1, tool-equipment-2, tool-equipment-3, tool-equipment-4, talent-1, talent-2, talent-3, quest-object-1, quest-object-2, quest-object-3. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "ALC-B06": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "ALC-B06",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-alchemist-oak-gate",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "ALC-051",
+        "ALC-052",
+        "ALC-053",
+        "ALC-054",
+        "ALC-055",
+        "ALC-056",
+        "ALC-057",
+        "ALC-058",
+        "ALC-059",
+        "ALC-060"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# ALC-B06 — L’Alchimiste et la Porte du Chêne\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-alchemist-oak-gate` et de la direction artistique.\n\nCe lot contiendra : changed-state-1, changed-state-2, changed-state-3, changed-state-4, changed-state-5, changed-state-6, branch-scene-1, branch-scene-2, conclusion-variation-1, conclusion-variation-2. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "NEU-B01": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "NEU-B01",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-neuron-without-brain",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "NEU-001",
+        "NEU-002",
+        "NEU-003",
+        "NEU-004",
+        "NEU-005",
+        "NEU-006",
+        "NEU-007",
+        "NEU-008",
+        "NEU-009",
+        "NEU-010"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# NEU-B01 — Le Neurone Sans Cerveau\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-neuron-without-brain` et de la direction artistique.\n\nCe lot contiendra : cover, map, act-opener-1, act-opener-2, act-opener-3, act-opener-4, act-opener-5, recurring-place-1, recurring-place-2, recurring-place-3. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "NEU-B02": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "NEU-B02",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-neuron-without-brain",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "NEU-011",
+        "NEU-012",
+        "NEU-013",
+        "NEU-014",
+        "NEU-015",
+        "NEU-016",
+        "NEU-017",
+        "NEU-018",
+        "NEU-019",
+        "NEU-020"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# NEU-B02 — Le Neurone Sans Cerveau\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-neuron-without-brain` et de la direction artistique.\n\nCe lot contiendra : playable-scene-1, playable-scene-2, playable-scene-3, playable-scene-4, playable-scene-5, playable-scene-6, playable-scene-7, playable-scene-8, playable-scene-9, playable-scene-10. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "NEU-B03": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "NEU-B03",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-neuron-without-brain",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "NEU-021",
+        "NEU-022",
+        "NEU-023",
+        "NEU-024",
+        "NEU-025",
+        "NEU-026",
+        "NEU-027",
+        "NEU-028",
+        "NEU-029",
+        "NEU-030"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# NEU-B03 — Le Neurone Sans Cerveau\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-neuron-without-brain` et de la direction artistique.\n\nCe lot contiendra : playable-scene-11, playable-scene-12, playable-scene-13, playable-scene-14, playable-scene-15, playable-scene-16, playable-scene-17, playable-scene-18, playable-scene-19, playable-scene-20. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "NEU-B04": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "NEU-B04",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-neuron-without-brain",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "NEU-031",
+        "NEU-032",
+        "NEU-033",
+        "NEU-034",
+        "NEU-035",
+        "NEU-036",
+        "NEU-037",
+        "NEU-038",
+        "NEU-039",
+        "NEU-040"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# NEU-B04 — Le Neurone Sans Cerveau\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-neuron-without-brain` et de la direction artistique.\n\nCe lot contiendra : cast-portrait-expression-1, cast-portrait-expression-2, cast-portrait-expression-3, cast-portrait-expression-4, cast-portrait-expression-5, cast-portrait-expression-6, cast-portrait-expression-7, cast-portrait-expression-8, cast-portrait-expression-9, cast-portrait-expression-10. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "NEU-B05": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "NEU-B05",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-neuron-without-brain",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "NEU-041",
+        "NEU-042",
+        "NEU-043",
+        "NEU-044",
+        "NEU-045",
+        "NEU-046",
+        "NEU-047",
+        "NEU-048",
+        "NEU-049",
+        "NEU-050"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# NEU-B05 — Le Neurone Sans Cerveau\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-neuron-without-brain` et de la direction artistique.\n\nCe lot contiendra : tool-equipment-1, tool-equipment-2, tool-equipment-3, tool-equipment-4, talent-1, talent-2, talent-3, quest-object-1, quest-object-2, quest-object-3. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "NEU-B06": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "NEU-B06",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-neuron-without-brain",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "NEU-051",
+        "NEU-052",
+        "NEU-053",
+        "NEU-054",
+        "NEU-055",
+        "NEU-056",
+        "NEU-057",
+        "NEU-058",
+        "NEU-059",
+        "NEU-060"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# NEU-B06 — Le Neurone Sans Cerveau\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-neuron-without-brain` et de la direction artistique.\n\nCe lot contiendra : changed-state-1, changed-state-2, changed-state-3, changed-state-4, changed-state-5, changed-state-6, branch-scene-1, branch-scene-2, conclusion-variation-1, conclusion-variation-2. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "CIT-B01": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "CIT-B01",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-algorithm-citadel",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "CIT-001",
+        "CIT-002",
+        "CIT-003",
+        "CIT-004",
+        "CIT-005",
+        "CIT-006",
+        "CIT-007",
+        "CIT-008",
+        "CIT-009",
+        "CIT-010"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# CIT-B01 — La Citadelle des Algorithmes\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-algorithm-citadel` et de la direction artistique.\n\nCe lot contiendra : cover, map, act-opener-1, act-opener-2, act-opener-3, act-opener-4, act-opener-5, recurring-place-1, recurring-place-2, recurring-place-3. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "CIT-B02": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "CIT-B02",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-algorithm-citadel",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "CIT-011",
+        "CIT-012",
+        "CIT-013",
+        "CIT-014",
+        "CIT-015",
+        "CIT-016",
+        "CIT-017",
+        "CIT-018",
+        "CIT-019",
+        "CIT-020"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# CIT-B02 — La Citadelle des Algorithmes\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-algorithm-citadel` et de la direction artistique.\n\nCe lot contiendra : playable-scene-1, playable-scene-2, playable-scene-3, playable-scene-4, playable-scene-5, playable-scene-6, playable-scene-7, playable-scene-8, playable-scene-9, playable-scene-10. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "CIT-B03": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "CIT-B03",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-algorithm-citadel",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "CIT-021",
+        "CIT-022",
+        "CIT-023",
+        "CIT-024",
+        "CIT-025",
+        "CIT-026",
+        "CIT-027",
+        "CIT-028",
+        "CIT-029",
+        "CIT-030"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# CIT-B03 — La Citadelle des Algorithmes\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-algorithm-citadel` et de la direction artistique.\n\nCe lot contiendra : playable-scene-11, playable-scene-12, playable-scene-13, playable-scene-14, playable-scene-15, playable-scene-16, playable-scene-17, playable-scene-18, playable-scene-19, playable-scene-20. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "CIT-B04": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "CIT-B04",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-algorithm-citadel",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "CIT-031",
+        "CIT-032",
+        "CIT-033",
+        "CIT-034",
+        "CIT-035",
+        "CIT-036",
+        "CIT-037",
+        "CIT-038",
+        "CIT-039",
+        "CIT-040"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# CIT-B04 — La Citadelle des Algorithmes\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-algorithm-citadel` et de la direction artistique.\n\nCe lot contiendra : cast-portrait-expression-1, cast-portrait-expression-2, cast-portrait-expression-3, cast-portrait-expression-4, cast-portrait-expression-5, cast-portrait-expression-6, cast-portrait-expression-7, cast-portrait-expression-8, cast-portrait-expression-9, cast-portrait-expression-10. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "CIT-B05": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "CIT-B05",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-algorithm-citadel",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "CIT-041",
+        "CIT-042",
+        "CIT-043",
+        "CIT-044",
+        "CIT-045",
+        "CIT-046",
+        "CIT-047",
+        "CIT-048",
+        "CIT-049",
+        "CIT-050"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# CIT-B05 — La Citadelle des Algorithmes\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-algorithm-citadel` et de la direction artistique.\n\nCe lot contiendra : tool-equipment-1, tool-equipment-2, tool-equipment-3, tool-equipment-4, talent-1, talent-2, talent-3, quest-object-1, quest-object-2, quest-object-3. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    },
+    "CIT-B06": {
+      "schema": "securedme.education.algoquest.prompt-packet.v1",
+      "packet_id": "CIT-B06",
+      "revision": 1,
+      "status": "blocked",
+      "expected_count": 10,
+      "dependencies": [
+        "BOARD-algorithm-citadel",
+        "ART-BASE-01"
+      ],
+      "master_prompt_ref": "prompts/master/algoquest-art-direction-v1.md",
+      "references": [],
+      "slots": [
+        "CIT-051",
+        "CIT-052",
+        "CIT-053",
+        "CIT-054",
+        "CIT-055",
+        "CIT-056",
+        "CIT-057",
+        "CIT-058",
+        "CIT-059",
+        "CIT-060"
+      ],
+      "resolved_prompt_sha256": null,
+      "prompt": "# CIT-B06 — La Citadelle des Algorithmes\n\nÉTAT : BLOQUÉ. Ne pas produire ce lot avant validation de `BOARD-algorithm-citadel` et de la direction artistique.\n\nCe lot contiendra : changed-state-1, changed-state-2, changed-state-3, changed-state-4, changed-state-5, changed-state-6, branch-scene-1, branch-scene-2, conclusion-variation-1, conclusion-variation-2. Le prompt final sera autonome et versionné lorsque le casting, les lieux et les scènes seront approuvés.\n"
+    }
+  }
+}
