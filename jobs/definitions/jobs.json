@@ -386,9 +386,9 @@
       "depends_on": [
         "SHEET-01"
       ],
-      "status": "submitted",
+      "status": "accepted",
       "expected_output": "Capacitor Android and iOS shells with durable generation-based game storage",
-      "revision": 1,
+      "revision": 2,
       "evidence": [
         "algoquest/android",
         "algoquest/ios",
@@ -397,10 +397,13 @@
         "algoquest/scripts/game-host-parity-test.mjs",
         "algoquest/scripts/verify-android-build.ps1",
         "algoquest/docs/android-device-proof.md",
-        "android-debug-sha256:43d64b6beb0ca8573da85f6c24b9d8c2b6d27ced4082ffcdbbbe0454767c7cdb",
-        "research/evidence/GAME-CORE-01-android-build.json"
+        "research/evidence/GAME-CORE-01-android-build.json",
+        "android-debug-sha256:5dcea6d898ebb89520cc7b98ecd9da81c24ad911b35279b9cfb2726665698d4a",
+        "research/evidence/GAME-CORE-01-android-runtime.json",
+        "research/evidence/GAME-CORE-01-android-game-shell.png",
+        "research/evidence/GAME-CORE-01-android-hero-sheet.png"
       ],
-      "limitation": "Android APK build and digest verification pass; the bounded restart flow still requires an Android device or emulator, and iOS compilation requires macOS/Xcode."
+      "limitation": "Android emulator cold restart and byte-identical state recovery passed. iOS compilation remains a separate platform proof requiring macOS/Xcode."
     },
     {
       "schema": "securedme.education.algoquest.production-job.v1",
@@ -412,13 +415,15 @@
         "PLAY-01",
         "MOBILE-01"
       ],
-      "status": "submitted",
+      "status": "accepted",
       "expected_output": "First integrated game-engine pass across web board, shared Hero Sheet, Builder side panel and mobile shells",
-      "revision": 1,
+      "revision": 2,
       "evidence": [
         "research/findings/GAME-CORE-01-first-pass.md",
         "algoquest/scripts/builder-extension-browser-test.mjs",
-        "research/findings/GAME-CORE-01-acceptance-matrix.md"
+        "research/findings/GAME-CORE-01-acceptance-matrix.md",
+        "algoquest/scripts/game-shell-browser-test.mjs",
+        "research/evidence/GAME-CORE-01-android-runtime.json"
       ]
     },
     {

@@ -2,11 +2,11 @@
   "schema": "securedme.education.algoquest.android-build-proof.v1",
   "job_id": "MOBILE-01",
   "status": "passed",
-  "generated_at": "2026-09-08T22:45:24.5601792Z",
+  "generated_at": "2026-09-09T01:58:45.1563380Z",
   "artifact": {
     "name": "AlgoQuest-first-pass-debug.apk",
-    "bytes": 5448444,
-    "sha256": "43d64b6beb0ca8573da85f6c24b9d8c2b6d27ced4082ffcdbbbe0454767c7cdb"
+    "bytes": 5600445,
+    "sha256": "5dcea6d898ebb89520cc7b98ecd9da81c24ad911b35279b9cfb2726665698d4a"
   },
   "toolchain": {
     "java": "openjdk 21.0.9 2025-10-21 LTS",
@@ -15,5 +15,5 @@
     "command": "npm run mobile:android:verify"
   },
   "result": "BUILD SUCCESSFUL",
-  "scope": "Local debug APK compilation and digest verification; device behavior is tracked separately."
+  "scope": "Local debug APK compilation and digest verification; emulator behavior is recorded in GAME-CORE-01-android-runtime.json."
 }
